@@ -1265,7 +1265,6 @@ var log$1 = /*@__PURE__*/getDefaultExportFromCjs(log);
 var en = {
 	"xcratchExample.name": "Xcratch Example",
 	"xcratchExample.doIt": "Capitalize []",
-	"xcratchExample.cap2": "Capitalize Again [SCRIPT]"
 	
 };
 var ja = {
