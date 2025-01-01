@@ -1360,6 +1360,23 @@ var ExtensionBlocks = /*#__PURE__*/function () {
             }
           }
         }],
+	      [{
+          opcode: 'Capitalize2',
+          blockType: BlockType$1.REPORTER,
+          blockAllThreads: false,
+          text: formatMessage({
+            id: 'xcratchExample.cap2',
+            default: 'Capitalize [SCRIPT]',
+            description: 'execute javascript for example'
+          }),
+          func: 'doIt',
+          arguments: {
+            SCRIPT: {
+              type: ArgumentType$1.STRING,
+              defaultValue: 'Hello, Again'
+            }
+          }
+        }]
         menus: {}
       };
     }
