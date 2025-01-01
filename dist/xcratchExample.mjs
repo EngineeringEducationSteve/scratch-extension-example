@@ -1344,7 +1344,7 @@ var ExtensionBlocks = /*#__PURE__*/function () {
         blockIconURI: img,
         showStatusButton: false,
         blocks: [{
-          opcode: 'do-it',
+          opcode: 'Capitalize',
           blockType: BlockType$1.REPORTER,
           blockAllThreads: false,
           text: formatMessage({
