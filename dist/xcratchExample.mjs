@@ -1264,7 +1264,7 @@ var log$1 = /*@__PURE__*/getDefaultExportFromCjs(log);
 
 var en = {
 	"xcratchExample.name": "Xcratch Example",
-	"xcratchExample.doIt": "Capitalize [SCRIPT]",
+	"xcratchExample.doIt": "Capitalize []",
 	"xcratchExample.cap2": "Capitalize Again [SCRIPT]"
 	
 };
@@ -1361,8 +1361,7 @@ var ExtensionBlocks = /*#__PURE__*/function () {
               defaultValue: 'Hello, FabLab'
             }
           }
-        }],
-	      [{
+        }, {
           opcode: 'Capitalize2',
           blockType: BlockType$1.REPORTER,
           blockAllThreads: false,
