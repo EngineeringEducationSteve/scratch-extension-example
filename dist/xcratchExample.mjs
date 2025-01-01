@@ -1360,7 +1360,7 @@ var ExtensionBlocks = /*#__PURE__*/function () {
               defaultValue: 'Hello, FabLab'
             }
           }
-        }, {
+        }], [{
           opcode: 'Capitalize2',
           blockType: BlockType$1.REPORTER,
           blockAllThreads: false,
