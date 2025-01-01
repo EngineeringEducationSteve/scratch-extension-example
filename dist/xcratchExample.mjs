@@ -1376,7 +1376,7 @@ var ExtensionBlocks = /*#__PURE__*/function () {
               defaultValue: 'Hello, Again'
             }
           }
-        }]
+        }],
         menus: {}
       };
     }
