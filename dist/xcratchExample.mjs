@@ -1264,8 +1264,7 @@ var log$1 = /*@__PURE__*/getDefaultExportFromCjs(log);
 
 var en = {
 	"xcratchExample.name": "Xcratch Example",
-	"xcratchExample.doIt": "Capitalize [SCRIPT]",
-	
+	"xcratchExample.doIt": "Capitalize [SCRIPT]"
 };
 var ja = {
 	"xcratchExample.name": "Xcratchの例",
@@ -1358,6 +1357,23 @@ var ExtensionBlocks = /*#__PURE__*/function () {
             SCRIPT: {
               type: ArgumentType$1.STRING,
               defaultValue: 'Hello, FabLab'
+            }
+          }
+        }],
+	      [{
+          opcode: 'Capitalize2',
+          blockType: BlockType$1.REPORTER,
+          blockAllThreads: false,
+          text: formatMessage({
+            id: 'xcratchExample.cap2',
+            default: 'Capitalize [SCRIPT]',
+            description: 'execute javascript for example'
+          }),
+          func: 'doIt',
+          arguments: {
+            SCRIPT: {
+              type: ArgumentType$1.STRING,
+              defaultValue: 'Hello, Again'
             }
           }
         }],
