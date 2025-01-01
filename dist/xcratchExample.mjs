@@ -1264,7 +1264,9 @@ var log$1 = /*@__PURE__*/getDefaultExportFromCjs(log);
 
 var en = {
 	"xcratchExample.name": "Xcratch Example",
-	"xcratchExample.doIt": "Capitalize [SCRIPT]"
+	"xcratchExample.doIt": "Capitalize [SCRIPT]",
+	"xcratchExample.cap2": "Capitalize Again [SCRIPT]"
+	
 };
 var ja = {
 	"xcratchExample.name": "Xcratchの例",
@@ -1366,7 +1368,7 @@ var ExtensionBlocks = /*#__PURE__*/function () {
           blockAllThreads: false,
           text: formatMessage({
             id: 'xcratchExample.cap2',
-            default: 'Capitalize [SCRIPT]',
+            default: 'Capitalize Again [SCRIPT]',
             description: 'execute javascript for example'
           }),
           func: 'doIt',
