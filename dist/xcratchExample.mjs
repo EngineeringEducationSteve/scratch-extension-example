@@ -57,7 +57,7 @@ var entry = {
   disabled: false,
   bluetoothRequired: false,
   internetConnectionRequired: false,
-  helpLink: 'https://xcratch.github.io/xcx-example/',
+  helpLink: 'https://sjcoefablab.org/',
   setFormatMessage: function setFormatMessage(formatter) {
     formatMessage$1 = formatter;
   },
@@ -1341,7 +1341,7 @@ var ExtensionBlocks = /*#__PURE__*/function () {
         id: ExtensionBlocks.EXTENSION_ID,
         name: ExtensionBlocks.EXTENSION_NAME,
         extensionURL: ExtensionBlocks.extensionURL,
-        blockIconURI: img,
+        blockIconURI: img$2,
         showStatusButton: false,
         blocks: [{
           opcode: 'Capitalize',
