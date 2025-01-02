@@ -45,7 +45,7 @@ var entry = {
   extensionURL: 'https://xcratch.github.io/xcx-example/dist/xcratchExample.mjs',
   collaborator: 'xcratch',
   iconURL: img$2,
-  insetIconURL: img$1,
+  insetIconURL: "https://engineeringeducationsteve.github.io/scratch-extension-example/dist/FabLab%20Simple%20Logo.svg",
   get description() {
     return formatMessage$1({
       defaultMessage: 'an extension for Xcratch',
