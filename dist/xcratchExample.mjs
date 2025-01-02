@@ -1264,7 +1264,7 @@ var log$1 = /*@__PURE__*/getDefaultExportFromCjs(log);
 
 var en = {
 	"xcratchExample.name": "Xcratch Example",
-	"xcratchExample.doIt": "Capitalize [SCRIPT]"
+	"xcratchExample.doIt": "do it [SCRIPT]"
 };
 var ja = {
 	"xcratchExample.name": "Xcratchの例",
@@ -1349,14 +1349,14 @@ var ExtensionBlocks = /*#__PURE__*/function () {
           blockAllThreads: false,
           text: formatMessage({
             id: 'xcratchExample.doIt',
-            default: 'Capitalize [SCRIPT]',
+            default: 'do it [SCRIPT]',
             description: 'execute javascript for example'
           }),
           func: 'doIt',
           arguments: {
             SCRIPT: {
               type: ArgumentType$1.STRING,
-              defaultValue: 'Hello, FabLab'
+              defaultValue: '3 + 4'
             }
           }
         }],
@@ -1368,9 +1368,8 @@ var ExtensionBlocks = /*#__PURE__*/function () {
     value: function doIt(args) {
       var statement = Cast$1.toString(args.SCRIPT);
       var func = new Function("return (".concat(statement, ")"));
-      log$1.log("Capitalize: ".concat(statement));
-	    return statement.toUpperCase();
-      //return func.call(this);
+      log$1.log("doIt: ".concat(statement));
+      return func.call(this);
     }
   }], [{
     key: "formatMessage",
